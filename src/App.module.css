@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: "REM", sans-serif;
+  /* color: #edf5e1; */
+  /* background: #242424 no-repeat; */
+  /* background: #f4f2de; */
+  background: #fff;
+  color: black;
+  font-size: 1.2rem;
+  height: 100%;
+}
+
+.navlinks {
+  color: #edf5e1;
+  text-decoration: none;
+}

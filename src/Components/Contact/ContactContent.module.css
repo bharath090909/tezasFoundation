@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contact {
+  /* color: #fff; */
+  background-color: #fff;
+  height: 100vh;
+  position: relative;
+}
+
+.contact .image img {
+  height: 50%;
+  width: 60%;
+  /* position: absolute; */
+  position: relative;
+  border-radius: 1.5rem;
+  /* right: 10rem; */
+  left: 20rem;
+  top: 3rem;
+}
+
+.form {
+  width: 30%;
+  height: 33rem;
+  background: #ed1b24;
+  position: absolute;
+  border-radius: 1.5rem;
+  left: 8rem;
+  top: 10rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form .title {
+  text-align: center;
+  margin: 1rem 1rem;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form textarea {
+  margin: 1rem 1rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  padding: 0.6rem;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: 0;
+}
+
+.form button {
+  width: 70%;
+  margin: auto;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  width: 70%;
+  padding: 2rem;
+  justify-content: space-between;
+  background: #ffb603;
+  font-size: 1rem;
+  /* position: absolute; */
+  position: relative;
+  /* bottom: 5rem; */
+  border-radius: 1rem;
+  left: 14rem;
+  /* bottom: 6rem; */
+  top: 7rem;
+}
+
+.footer div {
+  margin: 0rem 2rem;
+}
+
+.icons {
+  margin-right: 0.8rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  .contact .image img {
+    height: 100%;
+    width: 100%;
+    position: static;
+    border-radius: 0.5rem;
+  }
+
+  .form {
+    width: 100%;
+    height: 33rem;
+    background: #ed1b24;
+    position: static;
+    border-radius: 0.5rem;
+  }
+
+  .footer {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 2rem;
+    justify-content: space-between;
+    background: #ffb603;
+    font-size: 1rem;
+    border-radius: 1rem;
+  }
+
+  .footer div {
+    margin: 1rem 0rem;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .footer {
+    top: 10rem;
+  }
+
+  .footer div {
+    margin: 1rem 0rem;
+  }
+}

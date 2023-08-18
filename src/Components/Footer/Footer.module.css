@@ -1,0 +1,140 @@
+.footer {
+  background: #ffb603;
+  padding: 3rem 3rem 0rem 3rem;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer h2,
+.content2 h4 {
+  margin-bottom: 20px;
+}
+
+.content1 {
+  text-align: justify;
+  /* width: 1000px; */
+  margin-right: 3rem;
+  /* flex: 0 0 43.75rem; */
+  line-height: 35px;
+}
+
+.content2 {
+  text-align: justify;
+  /* flex: 0 0 25rem; */
+  line-height: 35px;
+}
+
+.content2 p {
+  font-size: 1.2 rem;
+  line-height: 1.9rem;
+}
+
+.icons {
+  position: relative;
+  right: 15px;
+}
+
+.copyrightslinks {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0 1rem 0;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.line {
+  position: relative;
+  width: 30rem;
+  height: 3px;
+  left: 30%;
+  margin: 2rem 0;
+  background-color: black;
+}
+.copyrightslinks li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.socialinks {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialinks p {
+  background: #ed1b24;
+  padding: 1rem;
+  position: relative;
+  left: -3.125rem;
+  display: inline-block;
+  border-top-right-radius: 2rem;
+}
+
+.socialinks nav a {
+  font-size: 2rem;
+  margin: 0 2rem;
+  color: #ed1b24;
+  cursor: pointer;
+  position: relative;
+  top: 0.8rem;
+  right: 3rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    padding: 1.3rem;
+  }
+  .footer p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+  .footer1 {
+    flex-direction: column;
+  }
+  .content1 {
+    flex: 0;
+    padding: 2rem 0;
+    margin-right: 0rem;
+  }
+  .content2 {
+    flex: 0;
+  }
+  .line {
+    opacity: 0.5;
+    width: 15rem;
+    left: 60px;
+  }
+  .copyrightslinks {
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .copyrightslinks li {
+    margin: 0.5rem 0;
+  }
+
+  .socialinks p {
+    position: static;
+    border-top-right-radius: 0rem;
+    width: 100%;
+  }
+  .socialinks nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .content1 h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,16 @@
+.mobilenavigation {
+  display: none;
+}
+
+.icon {
+  position: absolute;
+  right: 5%;
+  bottom: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobilenavigation {
+    display: flex;
+    flex-direction: column;
+  }
+}

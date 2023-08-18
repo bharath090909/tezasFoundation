@@ -1,0 +1,10 @@
+.gallary {
+  height: 100%;
+  background: #fff;
+}
+
+.title {
+  padding: 1rem 5rem 1rem 5rem;
+  color: #fff;
+  background-color: #ed1b24;
+}

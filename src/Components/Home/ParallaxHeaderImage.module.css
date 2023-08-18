@@ -1,0 +1,21 @@
+.parllel {
+  height: 100vh;
+  position: relative;
+}
+
+.parllel::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: #000;
+  opacity: 0.5;
+  height: 100vh;
+  display: block;
+  z-index: 10;
+}
+
+.header {
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+}

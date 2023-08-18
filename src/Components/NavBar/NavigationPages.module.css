@@ -1,0 +1,29 @@
+.navlinks {
+  color: black;
+  text-decoration: none;
+  margin: 1.8rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .links {
+    flex-direction: column;
+    position: fixed;
+    z-index: 120;
+    right: 6.25rem;
+    /* height: 50px; */
+    top: 5.7rem;
+    width: 100vw;
+    left: 0px;
+    background: rgba(239, 249, 240, 0.5);
+  }
+
+  .navlinks {
+    display: inline-block;
+    margin: 1rem 0;
+  }
+}

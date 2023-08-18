@@ -1,0 +1,23 @@
+.title {
+  margin: 2rem 0;
+}
+
+.privacycontent {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.privacycontent p {
+  margin: 1rem 0rem;
+  text-align: justify;
+}
+
+.privacycontent ul li {
+  margin: 1rem 0 0 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .privacycontent {
+    font-size: 1.1rem;
+  }
+}
