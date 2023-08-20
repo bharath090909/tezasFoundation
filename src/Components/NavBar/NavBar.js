@@ -4,17 +4,6 @@ import classes from "./NavBar.module.css";
 import Navigation from "./Navigation";
 import MobileNavigation from "./MobileNavigation";
 const NavBar = () => {
-  // const ref = React.useRef(null);
-  // const { scrollYProgress } = useScroll({
-  //   target: ref,
-  //   offset: ["end start", "end end"],
-  // });
-  // const y = useTransform(scrollYProgress, [0, 1], ["0px", "100px"]);
-  // const position = useTransform(
-  //   scrollYProgress,
-  //   [0, 0.2],
-  //   ["relative", "sticky"]
-  // );
   const [sticky, setSticky] = React.useState(false);
   const handleScroll = () => {
     if (window.scrollY > 500) {
