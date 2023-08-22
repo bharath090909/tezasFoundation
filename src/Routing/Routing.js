@@ -7,7 +7,6 @@ import AnimatedRoutes from "./AnimatedRoutes";
 const Routing = (props) => {
   return (
     <ScrollToTop>
-      {/* <NavBar /> */}
       <AnimatedRoutes
         gallaryData={props.gallaryData}
         aboutData={props.aboutData}
