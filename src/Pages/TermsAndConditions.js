@@ -36,12 +36,11 @@ const TermsAndConditions = () => {
               the owner of the website whose registered office is under Indian
               Trusts Act, 1882, having registered office and head office at
               <span className={classes.bold}>
-                {" "}
                 H.NO: 1-10-128/1 – BILLA VISHNAVI RESIDENCY, 2 ND FLOOR
                 ,OPPOSITE: - ADITYA PHARMACY, (ST.DUKES HIGH SCHOOL), NEAR TO
                 SAIRAM THEATRE, NEW MIRZALGUDA, MALKAJGIRI , HYDERABAD – 500016,
                 Telangana, India.
-              </span>{" "}
+              </span>
               Our company registration number is 1512-IV/87/2014. The term ‘you’
               refers to the user or viewer of our website.
             </p>
@@ -85,7 +84,7 @@ const TermsAndConditions = () => {
           </div>
         </motion.div>
       </Card>
-      <Footer />
+      <Footer />f
     </React.Fragment>
   );
 };

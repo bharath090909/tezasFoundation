@@ -1,0 +1,23 @@
+.title {
+  margin: 2rem 0rem;
+}
+
+.refundcontent {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.refundcontent p {
+  margin: 1rem 0rem;
+  text-align: justify;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 768px) {
+  .refundcontent {
+    font-size: 1.1rem;
+  }
+}
