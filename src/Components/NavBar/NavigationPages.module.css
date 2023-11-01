@@ -9,6 +9,13 @@
   justify-content: space-between;
 }
 
+.links a:hover,
+.links a.active {
+  color: #ffb603;
+  text-decoration: underline;
+  margin: 1.8rem;
+}
+
 @media only screen and (max-width: 768px) {
   .links {
     flex-direction: column;

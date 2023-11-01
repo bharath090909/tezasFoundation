@@ -22,7 +22,12 @@ const NavigationPages = (props) => {
           transition={{ delay: 0.05 }}
           onClick={clickHandler}
         >
-          <NavLink className={classes.navlinks} to="/">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? classes.active : classes.navlinks
+            }
+            to="/"
+          >
             Home
           </NavLink>
         </motion.li>
@@ -32,7 +37,12 @@ const NavigationPages = (props) => {
           transition={{ delay: 0.1 }}
           onClick={clickHandler}
         >
-          <NavLink className={classes.navlinks} to="/about">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? classes.active : classes.navlinks
+            }
+            to="/about"
+          >
             About
           </NavLink>
         </motion.li>
@@ -42,7 +52,12 @@ const NavigationPages = (props) => {
           transition={{ delay: 0.2 }}
           onClick={clickHandler}
         >
-          <NavLink className={classes.navlinks} to="/services">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? classes.active : classes.navlinks
+            }
+            to="/services"
+          >
             Services
           </NavLink>
         </motion.li>
@@ -52,7 +67,12 @@ const NavigationPages = (props) => {
           transition={{ delay: 0.3 }}
           onClick={clickHandler}
         >
-          <NavLink className={classes.navlinks} to="/gallary">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? classes.active : classes.navlinks
+            }
+            to="/gallary"
+          >
             Gallery
           </NavLink>
         </motion.li>
